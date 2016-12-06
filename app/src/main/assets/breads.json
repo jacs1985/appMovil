@@ -1,0 +1,22 @@
+{
+
+  "breads": [
+    {
+      "name": "Pan Frica",
+      "cost": 1590,
+      "weight": 230,
+      "type": "importación",
+      "origin": "origen1",
+      "wholemeal": "false"
+    },
+    {
+      "name": "Pan Molde",
+      "cost": 2090,
+      "weight": 99,
+      "type": "importación",
+      "origin": "origen2",
+      "wholemeal": "false"
+    }
+  ]
+
+}

@@ -1,0 +1,12 @@
+{
+
+  "products": [
+    {
+      "name": "Queso",
+      "cost": 1001,
+      "weight": 51,
+      "type": "acompañamientos"
+    }
+  ]
+
+}

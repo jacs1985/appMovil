@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pizza_custom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.androidhive.firebase.PizzaCustom"
+    android:background="@color/white">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Arma tu pizza a tu medida"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:id="@+id/buttons_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <Button
+                    android:id="@+id/meat_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Lomo"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/rounded_border" />
+
+                <Button
+                    android:id="@+id/chicken_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Pollo"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/rounded_border" />
+
+                <Button
+                    android:id="@+id/tomato_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Tomate"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rounded_border" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/choricillo_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Choricillo"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/rounded_border" />
+
+                <Button
+                    android:id="@+id/olive_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Aceituna"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/rounded_border" />
+
+                <Button
+                    android:id="@+id/mushroom_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Champiñones"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rounded_border" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/pizza_details"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Ingredientes: Queso, Jamón"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttons_panel"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pizza_details"
+            android:layout_marginTop="40dp">
+            <Button
+                android:id="@+id/cost_button"
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:text="Calcular Total"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_border" />
+            <TextView
+                android:id="@+id/total_cost"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="$1000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/pizza_image"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:src="@drawable/pizza"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Renes Coffe</string>
+    <string name="action_sign_in_short">Registro</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password muy corta, ingrese un minimo de 6 caracteres!</string>
+    <string name="auth_failed">Autentificacion fallo, revisa email y password o sign up</string>
+    <string name="change_email">Cambiar Email</string>
+    <string name="change_password">Cambiar Password</string>
+    <string name="send_password_reset_email">Enviar Password resetear email</string>
+    <string name="remove_user">Remover Usuario</string>
+    <string name="new_pass">Nueva Password</string>
+    <string name="title_activity_profile">Renes Coffe</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">No estas Registrado? Registrate en Renes Coffe ya!</string>
+    <string name="btn_link_to_login">Ya estoy Registrado. Login !</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Olvidaste tu password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Nuevo Email</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_send">Envio</string>
+    <string name="btn_remove">Remover</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Olvidaste password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="rosita">aqui iba algo</string>
+</resources>

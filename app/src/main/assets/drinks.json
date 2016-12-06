@@ -1,0 +1,48 @@
+{
+
+  "drinks": [
+    {
+      "name": "Coca-Cola Pequeña",
+      "cost": 751,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    },
+    {
+      "name": "Fanta Pequeña",
+      "cost": 751,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    },
+    {
+      "name": "Sprite Pequeña",
+      "cost": 751,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    },
+    {
+      "name": "Jugo Piña Pequeño",
+      "cost": 1501,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    },
+    {
+      "name": "Jugo Naranja Pequeño",
+      "cost": 1501,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    },
+    {
+      "name": "Jugo Frambueza Pequeño",
+      "cost": 1501,
+      "weight": 567,
+      "type": "bebida",
+      "unit": "cc"
+    }
+  ]
+
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "870996445543",
+    "firebase_url": "https://apprenescoffe.firebaseio.com",
+    "project_id": "apprenescoffe",
+    "storage_bucket": "apprenescoffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870996445543:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870996445543-ifnvsfpc699kn3fl2q9hvjlu3vgdghjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0uz0uMG0-ACLyf-CP8u-NiAVrd1RUNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

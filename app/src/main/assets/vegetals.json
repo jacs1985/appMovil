@@ -1,0 +1,48 @@
+{
+
+    "vegetals": [
+        {
+            "name": "Tomate",
+            "cost": 1328,
+            "weight": 157,
+            "type": "importación",
+            "season": "Palta"
+        },
+        {
+            "name": "Lechuga",
+            "cost": 4404,
+            "weight": 29,
+            "type": "nacional",
+            "season": "baja"
+        },
+        {
+            "name": "Cebolla",
+            "cost": 4242,
+            "weight": 109,
+            "type": "nacional",
+            "season": "baja"
+        },
+        {
+            "name": "Chucrut",
+            "cost": 1836,
+            "weight": 174,
+            "type": "importación",
+            "season": "baja"
+        },
+        {
+            "name": "Aceitunas",
+            "cost": 3587,
+            "weight": 448,
+            "type": "importación",
+            "season": "baja"
+        },
+        {
+            "name": "Champiñones",
+            "cost": 1468,
+            "weight": 441,
+            "type": "importación",
+            "season": "baja"
+        }
+    ]
+
+}

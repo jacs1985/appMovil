@@ -1,0 +1,54 @@
+{
+
+  "meats": [
+    {
+      "name": "Lomo",
+      "cost": 4000,
+      "weight": 567,
+      "type": "importación",
+      "origin": "origen1",
+      "fatIndex": "2.72"
+    },
+    {
+      "name": "Tapapecho",
+      "cost": 200,
+      "weight": 157,
+      "type": "importación",
+      "origin": "origen2",
+      "fatIndex": "2.62"
+    },
+    {
+      "name": "Pavo",
+      "cost": 1000,
+      "weight": 789,
+      "type": "importación",
+      "origin": "origen2",
+      "fatIndex": "2.52"
+    },
+    {
+      "name": "Pollo",
+      "cost": 2500,
+      "weight": 234,
+      "type": "importación",
+      "origin": "origen2",
+      "fatIndex": "2.42"
+    },
+    {
+      "name": "Choricillo",
+      "cost": 3455,
+      "weight": 2234,
+      "type": "importación",
+      "origin": "origen3",
+      "fatIndex": "2.32"
+    },
+    {
+      "name": "Jamón",
+      "cost": 6890,
+      "weight": 2222,
+      "type": "nacional",
+      "origin": "origen4",
+      "fatIndex": "2.32"
+    }
+  ]
+
+}

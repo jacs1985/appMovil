@@ -1,0 +1,30 @@
+{
+
+  "desserts": [
+    {
+      "name": "Helado de crema",
+      "cost": 501,
+      "weight": 125,
+      "type": "helado",
+      "arrivalDate": "29-06-16",
+      "duration": 1
+    },
+    {
+      "name": "Manzana",
+      "cost": 501,
+      "weight": 125,
+      "type": "fruta",
+      "arrivalDate": "29-06-16",
+      "duration": 5
+    },
+    {
+      "name": "Torta",
+      "cost": 501,
+      "weight": 125,
+      "type": "torta",
+      "arrivalDate": "29-06-16",
+      "duration": 2
+    }
+  ]
+
+}
